@@ -81,13 +81,13 @@
 #### CNN & RNN
 
 1. Keras
-    Keras 提供了简单易用的 API 接口，入门快，特别适合初学者入门。其后端采用 TensorFlow, CNTK，以及 Theano。另外，Deeplearning4j 的 Python 也是基于 Keras 实现的。Keras 几乎已经成了 Python 神经网络的接口标准。
+    *Keras 提供了简单易用的 API 接口，入门快，特别适合初学者入门。其后端采用 TensorFlow, CNTK，以及 Theano。另外，Deeplearning4j 的 Python 也是基于 Keras 实现的。Keras 几乎已经成了 Python 神经网络的接口标准。
 
 2. TensorFlow
-    谷歌出品，追随者众多。代码质量高，支持模型丰富，支持语言多样， TensorBoard 可视化工具使用方便。
+    *谷歌出品，追随者众多。代码质量高，支持模型丰富，支持语言多样， TensorBoard 可视化工具使用方便。
 
 3. MXNet
-    已被亚马逊选为 AWS 上的深度学习框架，支持动态图计算。MXNet 有许多中国开发者，因而有非常良好的中文文档支持。Gluon 接口使得MXNet像 Keras 一样简单易用。
+    *已被亚马逊选为 AWS 上的深度学习框架，支持动态图计算。MXNet 有许多中国开发者，因而有非常良好的中文文档支持。Gluon 接口使得MXNet像 Keras 一样简单易用。
 
 
 ### 参考资料
