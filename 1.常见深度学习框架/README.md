@@ -7,8 +7,8 @@
 | [Caffe](https://github.com/BVLC/caffe)                    | BVLC        | C++/Python/Matlab   |    25480   | 15560 |
 | [CNTK](https://github.com/Microsoft/CNTK)                 | Microsoft   | C++                 |    15083   | 4020  |
 | [Keras](notebooks/Keras_TF_CNN.ipynb)                     | Fchollet    | Python              |    33332   | 12563 |
-| [Tensorflow](https://github.com/tensorflow/tensorflow)    | Google      | Python/C++/Go..     |    109115  | 67339 |
-| [MXNet](https://github.com/apache/incubator-mxnet)        | DMLC        | Python/C++/R..      |    15162   | 5484  |
+| [Tensorflow](https://github.com/tensorflow/tensorflow)    | Google      | Python/C++/Go...    |    109115  | 67339 |
+| [MXNet](https://github.com/apache/incubator-mxnet)        | DMLC        | Python/C++/R...     |    15162   | 5484  |
 | [PyTorch](https://github.com/pytorch/pytorch)             | Facebook    | Python              |    18517   | 4426  |
 
 
