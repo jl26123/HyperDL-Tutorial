@@ -3,7 +3,7 @@
 深度学习研究的热潮持续高涨，各种开源深度学习框架也层出不穷，其中包括TensorFlow、Caffe、Keras、CNTK、Torch7、MXNet、Leaf、Theano、DeepLearning4、Lasagne、Neon等。我们参考开源的测试结果，结合自己整理的数据，针对主流的深度学习框架进行简单对比及介绍。
 
 | 框架 | 机构 | 支持语言 | Stars | Forks | 
-| --- | :-----------------: | :----------------------: | :----------------------: | :----------------------: |
+| --- | ----------------- | :----------------------: | :----------------------: | :----------------------: |
 | [Caffe](https://github.com/BVLC/caffe)                      | BVLC        | C++/Python/Matlab      |    25480   | 15560
 | [CNTK](https://github.com/Microsoft/CNTK)                   | Microsoft   |   C++                  |    15083   | 4020
 | [Keras](notebooks/Keras_TF_CNN.ipynb)                       | fchollet    | Python                 |    33332   | 12563
@@ -21,7 +21,7 @@
 **运行于 SSD 硬盘**
 
 | 框架    | 1xV100/CUDA 9/CuDNN 7 | 4xV100/CUDA 9/CuDNN 7 |
-| --------------- | :------------------:  |  ------------------:  |
+| --------------- | :------------------:  | :------------------:  |
 | Pytorch         | 27min                 | 10min                 |
 | Keras(TF)       | 38min                 | 18min                 |
 | Tensorflow      | 33min                 | 22min                 |
