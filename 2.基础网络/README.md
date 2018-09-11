@@ -40,7 +40,7 @@ VGGNet是牛津大学计算机视觉组（Visual Geometry Group）和 Google Dee
 [[v4] Inception-v4, Inception-ResNet and the Impact of Residual Connections on Learning](http://arxiv.org/abs/1602.07261)
 
 
-这是GoogLeNet的最早版本，出现在2014年的" Going deeper with convolutions "。之所以名为 "GoogLeNet" 而非 "GoogleNet" ,文章说是为了向早期的LeNet致敬。GoogleNet提出了一个全新的深度 CNN 架构——Inception，无全连接层，可以节省运算的同时，减少了很多参数，参数数量是AlexNet的1/12，数量只有5 million，而且在ImageNet竞赛中取得了很好的成绩。
+GoogLeNet的最早版本，出现在2014年的" Going deeper with convolutions "。之所以名为 "GoogLeNet" 而非 "GoogleNet" ,文章说是为了向早期的LeNet致敬。GoogleNet提出了一个全新的深度 CNN 架构——Inception，无全连接层，可以节省运算的同时，减少了很多参数，参数数量是AlexNet的1/12，数量只有5 million，而且在ImageNet竞赛中取得了很好的成绩。
 
 [GoogleNet系列论文学习](https://blog.csdn.net/cdknight_happy/article/details/79247280)
 
