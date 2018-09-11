@@ -13,7 +13,7 @@
 | [NCNN](https://github.com/Tencent/ncnn)                   | Tencent     | ARM            |    4606    | 1163  |
 
 
-###  二、性能对比
+###  二、性能对比 (截至2018.09.11)
 
 #### 1. NCNN / FeatherCNN / MACE
 
@@ -60,7 +60,7 @@
 
 重点是：都开源，都只支持cpu
 
-ncnn开源早点，性能上有微弱优势（当前是201806），用的人多点。FeatherCNN开源晚，底子很好。
+ncnn开源早点，文档、相关代码丰富一些，使用者相对多一些。FeatherCNN开源晚，底子很好，从测试结果看，速度具有微弱优势。
 
 
 #### 2.百度的 paddle-mobile(MDL)
