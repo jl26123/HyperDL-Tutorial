@@ -1,19 +1,19 @@
 
 ## 深度学习经典卷积神经网络
 
-随着深度学习的发展，研究人员提出了很多模型，这其中一些设计方式，在当时取得了很好的效果，也为其他科研工作者提供了很好的思路。CNN的经典结构始于1998年的LeNet-5，成于2012年历史性的AlexNet，从此广泛用于图像相关领域，主要包括：
+随着深度学习的发展，研究人员提出了很多模型，这其中一些设计方式，在当时取得了很好的效果，也为其他科研工作者提供了很好的思路。CNN 的经典结构始于1998年的LeNet-5，成于2012年历史性的AlexNet，从此广泛用于图像相关领域，主要包括：
 
-    1.LeNet-5，1998年
+    1.LeNet-5, 1998年
     
-    2.AlexNet，2012年
+    2.AlexNet, 2012年
     
-    3.ZF-Net，2013年
+    3.ZF-Net, 2013年
     
-    4.GoogleNet，2014年
+    4.GoogleNet, 2014年
     
-    5.VGG，2014年
+    5.VGG, 2014年
     
-    6.ResNet，2015年
+    6.ResNet, 2015年
 
 经过科研工作者的反复验证及广泛使用，这些模型逐渐成为经典，我们这里收集了一些常用的模型进行介绍。
 
@@ -22,13 +22,13 @@
 
 [论文地址](https://arxiv.org/abs/1409.1556)
 
-VGGNet是牛津大学计算机视觉组（Visual Geometry Group）和Google DeepMind公司的研究员一起研发的的深度卷积神经网络。VGGNet探索了卷积神经网络的深度与其性能之间的关系，一共有六种不同的网络结构，但是每种结构都有含有５组卷积，每组卷积都使用３ｘ３的卷积核，每组卷积后进行一个２ｘ２最大池化，接下来是三个全连接层。在训练高级别的网络时，可以先训练低级别的网络，用前者获得的权重初始化高级别的网络，可以加速网络的收敛。VGGNet相比之前state-of-the-art的网络结构，错误率大幅下降，并取得了ILSVRC 2014比赛分类项目的第2名和定位项目的第1名。同时VGGNet的拓展性很强，迁移到其他图片数据上的泛化性非常好。VGGNet的结构非常简洁，整个网络都使用了同样大小的卷积核尺寸（3*3）和最大池化尺寸（2*2）。
+VGGNet是牛津大学计算机视觉组（Visual Geometry Group）和 Google DeepMind 公司的研究员一起研发的的深度卷积神经网络。VGGNet 探索了卷积神经网络的深度与其性能之间的关系，一共有六种不同的网络结构，但是每种结构都有含有５组卷积，每组卷积都使用３ｘ３的卷积核，每组卷积后进行一个２ｘ２最大池化，接下来是三个全连接层。在训练高级别的网络时，可以先训练低级别的网络，用前者获得的权重初始化高级别的网络，可以加速网络的收敛。VGGNet 相比之前state-of-the-art的网络结构，错误率大幅下降，并取得了ILSVRC 2014比赛分类项目的第2名和定位项目的第1名。同时VGGNet的拓展性很强，迁移到其他图片数据上的泛化性非常好。VGGNet的结构非常简洁，整个网络都使用了同样大小的卷积核尺寸（3*3）和最大池化尺寸（2*2）。
 到目前为止，VGGNet依然经常被用来提取图像特征。
 
 [经典卷积神经网络之VGGNet](https://blog.csdn.net/marsjhao/article/details/72955935)
 [VGG模型核心拆解](https://blog.csdn.net/qq_40027052/article/details/79015827)
 
-### 2. GoogleNet
+### 2. GoogLeNet
 
 [[v1] Going Deeper with Convolutions](http://arxiv.org/abs/1409.4842 )
 
@@ -39,7 +39,7 @@ VGGNet是牛津大学计算机视觉组（Visual Geometry Group）和Google Deep
 [[v4] Inception-v4, Inception-ResNet and the Impact of Residual Connections on Learning](http://arxiv.org/abs/1602.07261)
 
 
-这是GoogLeNet的最早版本，出现在2014年的《Going deeper with convolutions》。之所以名为“GoogLeNet”而非“GoogleNet”,文章说是为了向早期的LeNet致敬。GoogleNet提出了一个全新的深度CNN架构——Inception，无全连接层，可以节省运算的同时，减少了很多参数，参数数量是AlexNet的1/12，数量只有5 million，而且在ImageNet竞赛中取得了很好的成绩。
+这是GoogLeNet的最早版本，出现在2014年的" Going deeper with convolutions "。之所以名为 "GoogLeNet" 而非 "GoogleNet" ,文章说是为了向早期的LeNet致敬。GoogleNet提出了一个全新的深度 CNN 架构——Inception，无全连接层，可以节省运算的同时，减少了很多参数，参数数量是AlexNet的1/12，数量只有5 million，而且在ImageNet竞赛中取得了很好的成绩。
 
 [GoogleNet系列论文学习](https://blog.csdn.net/cdknight_happy/article/details/79247280)
 
@@ -48,7 +48,7 @@ VGGNet是牛津大学计算机视觉组（Visual Geometry Group）和Google Deep
 
 [论文地址](https://arxiv.org/abs/1512.03385)
 
-ResNet在2015年被提出，在ImageNet比赛classification任务上获得第一名，因为它“简单与实用”并存，之后很多方法都建立在ResNet50或者ResNet101的基础上完成的，检测，分割，识别等领域都纷纷使用ResNet，具有很强的适应性。ResNet的作者[何凯明](http://kaiminghe.com/)也因此摘得CVPR2016最佳论文奖。
+ResNet在2015年被提出，在ImageNet比赛classification任务上获得第一名，因为它 "简单与实用" 并存，之后很多方法都建立在ResNet50或者ResNet101的基础上完成的，检测，分割，识别等领域都纷纷使用ResNet，具有很强的适应性。ResNet的作者[何凯明](http://kaiminghe.com/)也因此摘得CVPR2016最佳论文奖。
 
 [ResNet解析](https://blog.csdn.net/lanran2/article/details/79057994)
 
