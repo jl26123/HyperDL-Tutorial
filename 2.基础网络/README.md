@@ -1,5 +1,5 @@
 
-<center>深度学习经典卷积神经网络</center>
+## 深度学习经典卷积神经网络
 
 随着深度学习的发展，研究人员提出了很多模型，这其中一些设计方式，在当时取得了很好的效果，也为其他科研工作者提供了很好的思路。
 
@@ -43,19 +43,19 @@ VGGNet是牛津大学计算机视觉组（Visual Geometry Group）和Google Deep
 
 这是GoogLeNet的最早版本，出现在2014年的《Going deeper with convolutions》。之所以名为“GoogLeNet”而非“GoogleNet”,文章说是为了向早期的LeNet致敬。GoogleNet提出了一个全新的深度CNN架构——Inception，无全连接层，可以节省运算的同时，减少了很多参数，参数数量是AlexNet的1/12，数量只有5 million，而且在ImageNet竞赛中取得了很好的成绩。
 
-#### 参考文献
 [GoogleNet系列论文学习](https://blog.csdn.net/cdknight_happy/article/details/79247280)
 
 
 ### Resnet 
+
 [论文地址](https://arxiv.org/abs/1512.03385)
 
 ResNet在2015年被提出，在ImageNet比赛classification任务上获得第一名，因为它“简单与实用”并存，之后很多方法都建立在ResNet50或者ResNet101的基础上完成的，检测，分割，识别等领域都纷纷使用ResNet，具有很强的适应性。ResNet的作者[何凯明](http://kaiminghe.com/)也因此摘得CVPR2016最佳论文奖。
 
-
 [ResNet解析](https://blog.csdn.net/lanran2/article/details/79057994)
 
 [ResNet学习](https://blog.csdn.net/xxy0118/article/details/78324256)
+
 
 ### MobileNet-V1 & MobileNet -V2
 
