@@ -26,6 +26,7 @@ VGGNet是牛津大学计算机视觉组（Visual Geometry Group）和 Google Dee
 到目前为止，VGGNet依然经常被用来提取图像特征。
 
 [经典卷积神经网络之VGGNet](https://blog.csdn.net/marsjhao/article/details/72955935)
+
 [VGG模型核心拆解](https://blog.csdn.net/qq_40027052/article/details/79015827)
 
 ### 2. GoogLeNet
