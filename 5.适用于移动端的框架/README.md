@@ -1,6 +1,6 @@
 ### 常用移动端深度学习框架
 
-各大公司开源了自己的移动端深度学习框架，其中包括TensorFlow Lite、Caffe2、MACE、MDL、FeatherCNN、NCNN等。我们参考开源的测试结果，结合自己整理的数据，针对主流的异动单深度学习框架进行简单对比及介绍。
+各大公司开源了自己的移动端深度学习框架，其中包括TensorFlow Lite、Caffe2、MACE、paddle-mobile(MDL)、FeatherCNN、NCNN等。我们参考开源的测试结果，结合自己整理的数据，针对主流的异动单深度学习框架进行简单对比及介绍。
 
 
 | 框架 | 机构 | 支持平台 | Stars | Forks | 
@@ -8,14 +8,14 @@
 | [Caffe2](https://github.com/caffe2/caffe2)                | Facebook    | ARM            |    8270*   | 2080* |
 | [TF_Lite](https://github.com/tensorflow)                  | Google      | ARM            |     *      |   *   |
 | [MACE](https://github.com/XiaoMi/mace)                    | Xiaomi      | ARM/DSP/GPU    |    2442    |  412  |
-| [MDL](https://github.com/PaddlePaddle/paddle-mobile)      | Baidu       | ARM/GPU        |    4038    |  774  |
+| [paddle-mobile](https://github.com/PaddlePaddle/paddle-mobile)      | Baidu       | ARM/GPU        |    4038    |  774  |
 | [FeatherCNN](https://github.com/Tencent/FeatherCNN)       | Tencent     | ARM            |    658     |  170  |
 | [NCNN](https://github.com/Tencent/ncnn)                   | Tencent     | ARM            |    4606    | 1163  |
 
 
 ###  性能对比
 
-#### 1. ncnn & FeatherCNN & MACE
+#### 1. NCNN / FeatherCNN / MACE
 
 **CPU：kryo&2.15GHz*2  (ms)**  
 
@@ -26,7 +26,7 @@
 | MACE            | 42.37                 | 65.18                 | 160.7  |
 
 
-#### 2. MDL 
+#### 2. paddle-mobile 
 
 **CPU：高通835  (ms)**  
 
