@@ -53,9 +53,9 @@ VGGNet是牛津大学计算机视觉组（Visual Geometry Group）和Google Deep
 ResNet在2015年被提出，在ImageNet比赛classification任务上获得第一名，因为它“简单与实用”并存，之后很多方法都建立在ResNet50或者ResNet101的基础上完成的，检测，分割，识别等领域都纷纷使用ResNet，具有很强的适应性。ResNet的作者[何凯明](http://kaiminghe.com/)也因此摘得CVPR2016最佳论文奖。
 
 
-[ResNet解析]https://blog.csdn.net/lanran2/article/details/79057994
+[ResNet解析](https://blog.csdn.net/lanran2/article/details/79057994)
 
-[ResNet学习]https://blog.csdn.net/xxy0118/article/details/78324256/
+[ResNet学习](https://blog.csdn.net/xxy0118/article/details/78324256)
 
 ### MobileNet-V1 & MobileNet -V2
 
