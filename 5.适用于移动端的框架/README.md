@@ -6,7 +6,7 @@
 | 框架 | 机构 | 支持平台 | Stars | Forks | 
 | --------------------------------------------------------- | ----------- | -------------- | ---------- | ----- |
 | [Caffe2](https://github.com/caffe2/caffe2)                | Facebook    | ARM            |    8270*   | 2080* |
-| [TF_Lite](https://github.com/tensorflow)                  | Google      | ARM            |     *      |   *   |
+| [TF_lite](https://github.com/tensorflow)                  | Google      | ARM            |     *      |   *   |
 | [MACE](https://github.com/XiaoMi/mace)                    | Xiaomi      | ARM/DSP/GPU    |    2442    |  412  |
 | [paddle-mobile](https://github.com/PaddlePaddle/paddle-mobile)      | Baidu       | ARM/GPU        |    4038    |  774  |
 | [FeatherCNN](https://github.com/Tencent/FeatherCNN)       | Tencent     | ARM            |    658     |  170  |
@@ -58,14 +58,14 @@
 
 这两个框架都是腾讯出的，FeatherCNN来自腾讯AI平台部，ncnn来自腾讯优图。
 
-重点是：都开源，都只支持cpu
+重点是：都开源，都只支持CPU
 
 ncnn开源早点，文档、相关代码丰富一些，使用者相对多一些。FeatherCNN开源晚，底子很好，从测试结果看，速度具有微弱优势。
 
 
 #### 2.百度的 paddle-mobile(MDL)
  
-MDL支持cpu和gpu的，FPGA在开发中。
+MDL可以支持CPU和GPU，FPGA在开发中。
 
 #### 3.小米的 MACE
 
