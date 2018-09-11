@@ -26,7 +26,7 @@
 | MACE            | 42.37                 | 65.18                 | 160.7  |
 
 
-#### 2. paddle-mobile 
+#### 2. paddle-mobile (MDL)
 
 **CPU：高通835  (ms)**  
 
