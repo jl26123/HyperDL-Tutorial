@@ -13,7 +13,7 @@
 | [NCNN](https://github.com/Tencent/ncnn)                   | Tencent     | ARM            |    4606    | 1163  |
 
 
-###  二、性能对比 (截至2018.09.11)
+###  二、性能对比 (截至2018.09)
 
 #### 1. NCNN / FeatherCNN / MACE
 
