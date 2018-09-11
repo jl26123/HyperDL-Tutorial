@@ -20,7 +20,7 @@ CNN的经典结构始于1998年的LeNet-5，成于2012年历史性的AlexNet，�
 经过科研工作者的反复验证及广泛使用，这些模型逐渐成为经典，我们这里收集了一些常用的模型进行介绍。
 
 
-### VGG
+### 1. VGG
 
 [论文地址](https://arxiv.org/abs/1409.1556)
 
@@ -30,7 +30,7 @@ VGGNet是牛津大学计算机视觉组（Visual Geometry Group）和Google Deep
 [经典卷积神经网络之VGGNet](https://blog.csdn.net/marsjhao/article/details/72955935)
 [VGG模型核心拆解](https://blog.csdn.net/qq_40027052/article/details/79015827)
 
-### GoogleNet
+### 2. GoogleNet
 
 [[v1] Going Deeper with Convolutions](http://arxiv.org/abs/1409.4842 )
 
@@ -46,7 +46,7 @@ VGGNet是牛津大学计算机视觉组（Visual Geometry Group）和Google Deep
 [GoogleNet系列论文学习](https://blog.csdn.net/cdknight_happy/article/details/79247280)
 
 
-### Resnet 
+### 3. Resnet 
 
 [论文地址](https://arxiv.org/abs/1512.03385)
 
@@ -57,7 +57,7 @@ ResNet在2015年被提出，在ImageNet比赛classification任务上获得第一
 [ResNet学习](https://blog.csdn.net/xxy0118/article/details/78324256)
 
 
-### MobileNet-V1 & MobileNet -V2
+### 4. MobileNet-V1 & MobileNet -V2
 
 [V1论文地址](https://arxiv.org/abs/1704.04861)
 
