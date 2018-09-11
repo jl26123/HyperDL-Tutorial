@@ -95,3 +95,4 @@ Keras 提供了简单易用的 API 接口，入门快，特别适合初学者入
 1. [香港浸会大学深度学习框架Benchmark](http://dlbench.comp.hkbu.edu.hk/?v=v8)
 2. [DeepLearningFrameworks](https://github.com/ilkarman/DeepLearningFrameworks)
 3. [博客](http://app.myzaker.com/news/article.php?pk=5a13b55c1bc8e05d71000016)
+4. [开发者如何选择深度学习框架?](https://www.zhihu.com/question/68114194/answer/465874315)
