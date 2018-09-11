@@ -16,8 +16,10 @@ CNN的经典结构始于1998年的LeNet-5，成于2012年历史性的AlexNet，�
 　　5、VGG，2014年
   
 　　6、ResNet，2015年
+  
 　
 经过科研工作者的反复验证及广泛使用，这些模型逐渐成为经典，我们这里收集了一些常用的模型进行介绍。
+
 ### VGG
 
 [论文地址](https://arxiv.org/abs/1409.1556)
@@ -31,9 +33,13 @@ VGGNet是牛津大学计算机视觉组（Visual Geometry Group）和Google Deep
 ### GoogleNet
 
 [[v1] Going Deeper with Convolutions](http://arxiv.org/abs/1409.4842 )
+
 [[v2] Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift](http://arxiv.org/abs/1502.03167 )
+
 [[v3] Rethinking the Inception Architecture for Computer Vision](http://arxiv.org/abs/1512.00567) 
+
 [[v4] Inception-v4, Inception-ResNet and the Impact of Residual Connections on Learning](http://arxiv.org/abs/1602.07261)
+
 
 这是GoogLeNet的最早版本，出现在2014年的《Going deeper with convolutions》。之所以名为“GoogLeNet”而非“GoogleNet”,文章说是为了向早期的LeNet致敬。GoogleNet提出了一个全新的深度CNN架构——Inception，无全连接层，可以节省运算的同时，减少了很多参数，参数数量是AlexNet的1/12，数量只有5 million，而且在ImageNet竞赛中取得了很好的成绩。
 
@@ -48,6 +54,7 @@ ResNet在2015年被提出，在ImageNet比赛classification任务上获得第一
 
 
 [ResNet解析]https://blog.csdn.net/lanran2/article/details/79057994
+
 [ResNet学习]https://blog.csdn.net/xxy0118/article/details/78324256/
 
 ### MobileNet-V1 & MobileNet -V2
