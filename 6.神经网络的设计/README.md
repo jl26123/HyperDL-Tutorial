@@ -1,13 +1,13 @@
-网络的设计
+# 网络的设计
 
-几种卷积的介绍
+### 几种卷积的介绍
 
 - Spital Convolution
 - Depthwise Convolution
 - Deformable Convolution
 - Dilated Convolution
 
-网络的几个常用Block
+#### 网络的几个常用Block
 
 - Inception
 - Bottleneck
@@ -17,7 +17,7 @@
 - SE
 - Nasnet系列
 
-网络的时效性对比图
+#### 网络的时效性对比图
 
 
 
