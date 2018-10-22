@@ -64,7 +64,7 @@ ocr
 
 ### 边缘检测
 
-#### 1. hed
+#### 1. hed (https://github.com/s9xie/hed)
 
 #### 2. RCF (https://github.com/yun-liu/rcf)
 
@@ -72,15 +72,22 @@ ocr
 ### 图像复原
 
 #### 1. 去雨
-ddn cgan
+
+ddn (https://github.com/XMU-smartdsp/Removing_Rain)
+
+cgan (https://github.com/hezhangsprinter/ID-CGAN)
 
 #### 2. 去雾
 
-mscnn dehaze-net
+mscnn 
+
+dehaze-net
 
 #### 3. 超分辨率
 
-SRCNN EDSR 
+SRCNN 
+
+EDSR 
 
 https://blog.csdn.net/xjp_xujiping/article/details/81986020
 
