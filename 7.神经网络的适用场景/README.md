@@ -9,12 +9,15 @@
 
 人脸
 mtcnn：https://github.com/kpzhang93/MTCNN_face_detection_alignment
+
 cascade-cnn ：https://github.com/anson0910/CNN_face_detection
 
 #### 2. 通用物体检测
 
 faster-rcnn :https://github.com/rbgirshick/py-faster-rcnn
+
 yolo ：https://github.com/pjreddie/darknet
+
 ssd ： https://github.com/chuanqi305/MobileNet-SSD
 
 ### 分类
@@ -34,7 +37,11 @@ ssd ： https://github.com/chuanqi305/MobileNet-SSD
 
 #### 1. 人脸识别
 
-deepface  arcface hyperface
+deepface  
+
+Normface 
+
+ArcFace
 
 #### 2. 文字识别
 
@@ -59,7 +66,7 @@ ocr
 
 #### 1. hed
 
-#### 2. 
+#### 2. RCF (https://github.com/yun-liu/rcf)
 
 
 ### 图像复原
