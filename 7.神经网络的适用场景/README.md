@@ -80,21 +80,21 @@ DDN : (https://github.com/XMU-smartdsp/Removing_Rain)
 
 CGAN : (https://github.com/hezhangsprinter/ID-CGAN)
 
-DID-MDN :
+DID-MDN : (https://github.com/hezhangsprinter/DID-MDN)
 
-DeRaindrop : 
+DeRaindrop : (https://github.com/rui1996/DeRaindrop)
 
 #### 2. 去雾
 
-MSCNN 
+MSCNN : (https://github.com/dishank-b/MSCNN-Dehazing-Tensorflow)
 
-DeHaze-Net
+DehazeNet 
 
 #### 3. 超分辨率
 
 SRCNN 
 
-EDSR 
+EDSR : (https://github.com/thstkdgus35/EDSR-PyTorch)
 
 https://blog.csdn.net/xjp_xujiping/article/details/81986020
 
