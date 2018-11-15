@@ -14,9 +14,9 @@ MTCNN (Joint Face Detection and Alignment using Multi-task Cascaded Convolutiona
 
 MTCNN基本原理是使用全卷积的P-Net在多尺度的待检图像上生成候选框，接着通过R-Net和O-Net来过滤。
 
-####MTCNN的结构
+#### MTCNN的结构
 
-![20180630104620968](/Users/yujinke/Desktop/20180630104620968.png)
+![20180630104620968](./1.png)
 
 
 
@@ -32,7 +32,7 @@ MTCNN基本原理是使用全卷积的P-Net在多尺度的待检图像上生成�
 
 ##### Depthwise卷积
 
-![6014825-cd2480acc62515a0](/Users/yujinke/Desktop/6014825-cd2480acc62515a0.jpg)
+![6014825-cd2480acc62515a0](./2.jpg)
 
 Depthwise卷积最初来源于Xception。其思路比较直接，先是对输入图的每个通道进行卷积，然后再由1x1卷积将他们合并起来，大量实验证明的这个操作基本可以等同于普通的Sptial卷积。并且在IO效率和性能不变的情况下，计算量降低9倍。我们可以利用这个思路替换Pnet和Rnet和Onet中的卷积操作使之速度有着大幅度提升。
 
@@ -40,7 +40,7 @@ Depthwise卷积最初来源于Xception。其思路比较直接，先是对输入
 
 ##### shuffle-channel
 
-![6014825-59f0c95736fa2d9f](/Users/yujinke/Desktop/6014825-59f0c95736fa2d9f.jpg)
+![6014825-59f0c95736fa2d9f](./3.jpg)
 
 shuffle-channel来源于旷世的ShuffleNet。虽然这篇文章宣称的精度难以复现。但其shuffle-channel的思想是非常值得借鉴的。shuffle-channel的原理将特征的通道平均分到不同组里面。是之每个组卷积的时候能得到其他组的信息。起到了一个组之间通信的作用。
 
@@ -62,7 +62,7 @@ shuffle-channel来源于旷世的ShuffleNet。虽然这篇文章宣称的精度�
 
 我们将caffe版本的MTCNN inference改成opencv dnn，在普通的opencv dnn backend下取得了差不多近四倍的加速。
 
-#####MTCNN的并行
+##### MTCNN的并行
 
 大家都知道Cascade架构都难以并行，使得在某些检测任务上，在GPU上的提升并不大，我们的做法是类似于FaceCraft的来将MTCNN的pipeline写进计算图，并且使用TVM来优化整个计算图。
 
