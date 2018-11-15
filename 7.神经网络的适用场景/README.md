@@ -14,11 +14,13 @@ cascade-cnn ：https://github.com/anson0910/CNN_face_detection
 
 #### 2. 通用物体检测
 
-faster-rcnn :https://github.com/rbgirshick/py-faster-rcnn
+Faster-RCNN :https://github.com/rbgirshick/py-faster-rcnn
 
-yolo ：https://github.com/pjreddie/darknet
+YOLO ：https://github.com/pjreddie/darknet
 
-ssd ： https://github.com/chuanqi305/MobileNet-SSD
+SSD ： https://github.com/FreeApe/VGG-or-MobileNet-SSD
+
+RetinaNet : https://github.com/fizyr/keras-retinanet
 
 ### 分类
 
@@ -32,6 +34,7 @@ ssd ： https://github.com/chuanqi305/MobileNet-SSD
 
 #### 5. Shufflenet
 
+#### 6. MNasNet 
 
 ### 识别
 
@@ -64,7 +67,7 @@ ocr
 
 ### 边缘检测
 
-#### 1. hed (https://github.com/s9xie/hed)
+#### 1. HED (https://github.com/s9xie/hed)
 
 #### 2. RCF (https://github.com/yun-liu/rcf)
 
@@ -73,15 +76,19 @@ ocr
 
 #### 1. 去雨
 
-ddn (https://github.com/XMU-smartdsp/Removing_Rain)
+DDN : (https://github.com/XMU-smartdsp/Removing_Rain)
 
-cgan (https://github.com/hezhangsprinter/ID-CGAN)
+CGAN : (https://github.com/hezhangsprinter/ID-CGAN)
+
+DID-MDN :
+
+DeRaindrop : 
 
 #### 2. 去雾
 
-mscnn 
+MSCNN 
 
-dehaze-net
+DeHaze-Net
 
 #### 3. 超分辨率
 
