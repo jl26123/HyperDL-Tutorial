@@ -7,8 +7,9 @@
 
 #### 1. 单一物体检测
 
-人脸
-mtcnn：https://github.com/kpzhang93/MTCNN_face_detection_alignment
+#### 人脸
+
+`MTCNN: https://github.com/kpzhang93/MTCNN_face_detection_alignment`
 
 cascade-cnn ：https://github.com/anson0910/CNN_face_detection
 
@@ -48,8 +49,7 @@ ArcFace
 
 #### 2. 文字识别
 
-ocr
-
+DeepOCR：https://github.com/JinpengLI/deep_ocr
 
 ### 跟踪
 
