@@ -7,11 +7,9 @@
 
 #### 1. 单一物体检测
 
-#### 人脸
+MTCNN: https://github.com/kpzhang93/MTCNN_face_detection_alignment
 
-`MTCNN: https://github.com/kpzhang93/MTCNN_face_detection_alignment`
-
-cascade-cnn ：https://github.com/anson0910/CNN_face_detection
+Cascade-CNN : https://github.com/anson0910/CNN_face_detection
 
 #### 2. 通用物体检测
 
@@ -41,11 +39,13 @@ RetinaNet : https://github.com/fizyr/keras-retinanet
 
 #### 1. 人脸识别
 
-deepface  
+Deepface  
 
 Normface 
 
-ArcFace
+Arcface
+
+Insightface
 
 #### 2. 文字识别
 
