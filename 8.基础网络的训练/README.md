@@ -48,7 +48,7 @@ MnasNet同样是谷歌发布的高效移动端分类网络，与Mobilenet不同�
 #### 8.YOLO-V3
 
 通用物体检测近年来也是研究人员关注的人们领域，从RBG、何凯明大神的RCNN，Fast RCNN，Faster RCNN，MASK RCNN等，Single Shot的Yolo系列、SSD等，以后后来的RetinaNet，我们对这一系列的网络都进行过测试，由于我们算法组在日常使用中主要考虑移动端的部署以及服务器端的效率，推荐了MobileNet-SSD跟YOLO-V
-3。我们对3000张行车记录仪标注图像以及2000张交通监控图片进行标注，分别在以上网络进行了测试，对于我们的图片，YOLO-V3表现最好，速度也基本是最快的。项目主页：https://pjreddie.com/darknet/yolo/ 
+3。我们对3000张行车记录仪标注图像以及2000张交通监控图片进行标注，分别在以上网络进行了测试，对于我们的图片，YOLO-V3表现最好，速度也是最快的一档。项目主页：https://pjreddie.com/darknet/yolo/ 
 
 
 
