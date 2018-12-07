@@ -7,7 +7,7 @@
 ```
 1.MobileNet(分类网络)
 
-2.MnasNet-V2(分类网络)
+2.MnasNet(分类网络)
 
 3.MTCNN(单一物体检测网络)
 
