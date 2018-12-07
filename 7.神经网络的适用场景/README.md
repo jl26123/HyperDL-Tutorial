@@ -13,27 +13,27 @@ Cascade-CNN : https://github.com/anson0910/CNN_face_detection
 
 #### 2. 通用物体检测
 
-Faster-RCNN :https://github.com/rbgirshick/py-faster-rcnn
+1)Faster-RCNN :https://github.com/rbgirshick/py-faster-rcnn
 
-YOLO ：https://github.com/pjreddie/darknet
+2)YOLO ：https://github.com/pjreddie/darknet
 
-SSD ： https://github.com/FreeApe/VGG-or-MobileNet-SSD
+3)SSD ： https://github.com/FreeApe/VGG-or-MobileNet-SSD
 
-RetinaNet : https://github.com/fizyr/keras-retinanet
+4)RetinaNet : https://github.com/fizyr/keras-retinanet
 
 ### 分类
 
-#### 1. VGG
+1) VGG : https://github.com/ry/tensorflow-vgg16
 
-#### 2. GoogLenet
+2) GoogLenet : https://github.com/n3011/Inception_v3_GoogLeNet
 
-#### 3. Resnet
+3) Resnet
 
-#### 4. Mobilenet
+4) Mobilenet
 
-#### 5. Shufflenet
+5) Shufflenet : https://github.com/anlongstory/ShuffleNet_V2-caffe
 
-#### 6. MNasNet 
+6) MNasNet 
 
 ### 识别
 
@@ -92,9 +92,9 @@ DehazeNet
 
 #### 3. 超分辨率
 
-SRCNN 
+1) SRCNN : https://github.com/tegg89/SRCNN-Tensorflow
 
-EDSR : (https://github.com/thstkdgus35/EDSR-PyTorch)
+2) EDSR : (https://github.com/thstkdgus35/EDSR-PyTorch)
 
 https://blog.csdn.net/xjp_xujiping/article/details/81986020
 
