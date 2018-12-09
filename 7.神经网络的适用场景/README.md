@@ -8,7 +8,7 @@
 
 MTCNN: https://github.com/kpzhang93/MTCNN_face_detection_alignment
 
-Cascade-CNN : https://github.com/anson0910/CNN_face_detection
+Cascade-CNN: https://github.com/anson0910/CNN_face_detection
 
 #### 2. 通用物体检测
 
@@ -26,7 +26,7 @@ VGG: https://github.com/ry/tensorflow-vgg16
 
 GoogLenet: https://github.com/n3011/Inception_v3_GoogLeNet
 
-Resnet: 
+Resnet: https://github.com/ry/tensorflow-resnet
 
 Mobilenet: https://github.com/shicai/MobileNet-Caffe
 
