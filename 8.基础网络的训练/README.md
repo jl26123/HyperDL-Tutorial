@@ -39,8 +39,9 @@ MnasNet同样是谷歌发布的高效移动端分类网络，与Mobilenet不同�
 
 MTCNN是一个非常优秀的单一物体检测框架，可以用这个框架进行人脸、车辆、行人等单一物体的检测，该网络的主要问题在于单帧图像中包含多个物体时，检测速度下降严重。mtcnn的复现在github上有多个版本，包括caffe、keras、TensorFlow等，我们测试了不同版本，有一些存在问题，https://github.com/AITTSMD/MTCNN-Tensorflow 这个repo能够基本复现作者的精度。其实，mtcnn框架具有一些优化的方法和空间，包括用卷积替代polling，采用dw卷积等等，相关修改可以参考我们的文章: https://blog.csdn.net/Relocy/article/details/84075570 . 我们的工程师同样提供了一个优化的mtcnn模型：https://github.com/szad670401/Fast-MTCNN ，大家可以参考修改。
 
-
 #### 4.MobileNet-SSD
+
+SSD是Single Shot检测网络的代表结构，其速度快，单帧物体数量对检测速度影响不大，具有很好的工程化指导作用。Mobilenet跟SSD的结合，更能够提高网络的速度。Mobilenet-SSD可以参考：https://github.com/chuanqi305/MobileNet-SSD 这里有数据准备代码，以及网络的训练测试代码。我们采用这个网络进行了车牌检测的实验，效果也不错，能够完成单层、双层、蓝牌、黄牌、绿牌的检测，可以参见我们的博客：https://blog.csdn.net/lsy17096535/article/details/78687728 ，我们开源的车牌检测Mobilenet-SSD模型：https://github.com/zeusees/Mobilenet-SSD-License-Plate-Detection
 
 #### 5.ArcFace
 
