@@ -1,7 +1,6 @@
 ### 深度学习在图像领域的应用
 
-随着深度学习近几年的火热发展，在计算机视觉，图像理解方向上，应用越来越广泛。我们总结了在视觉领域的一些方向上基于深度学习的优秀算法。
-
+随着深度学习近几年的火热发展，在计算机视觉，图像理解方向上，应用越来越广泛。我们总结了在视觉领域的一些方向上基于深度学习的优秀算法。包括物体检测、物体识别、人脸世界、分割、跟踪、边缘检测、图像复原（去雨、去雾）、图像编辑等。
  
 ###  检测
 
@@ -13,43 +12,41 @@ Cascade-CNN : https://github.com/anson0910/CNN_face_detection
 
 #### 2. 通用物体检测
 
-1)Faster-RCNN :https://github.com/rbgirshick/py-faster-rcnn
+Faster-RCNN: https://github.com/rbgirshick/py-faster-rcnn
 
-2)YOLO ：https://github.com/pjreddie/darknet
+YOLO: https://github.com/pjreddie/darknet
 
-3)SSD ： https://github.com/FreeApe/VGG-or-MobileNet-SSD
+SSD: https://github.com/FreeApe/VGG-or-MobileNet-SSD
 
-4)RetinaNet : https://github.com/fizyr/keras-retinanet
+RetinaNet: https://github.com/fizyr/keras-retinanet
 
 ### 分类
 
-1) VGG : https://github.com/ry/tensorflow-vgg16
+VGG: https://github.com/ry/tensorflow-vgg16
 
-2) GoogLenet : https://github.com/n3011/Inception_v3_GoogLeNet
+GoogLenet: https://github.com/n3011/Inception_v3_GoogLeNet
 
-3) Resnet
+Resnet: 
 
-4) Mobilenet
+Mobilenet: https://github.com/shicai/MobileNet-Caffe
 
-5) Shufflenet : https://github.com/anlongstory/ShuffleNet_V2-caffe
+Shufflenet: https://github.com/anlongstory/ShuffleNet_V2-caffe
 
-6) MNasNet 
+MNasNet: https://github.com/zeusees/Mnasnet-Pretrained-Model
 
 ### 识别
 
 #### 1. 人脸识别
 
-Deepface  
+Deepface: https://github.com/RiweiChen/DeepFace 
 
-Normface 
+Normface: https://github.com/happynear/NormFace
 
-Arcface
-
-Insightface
+Insightface: https://github.com/deepinsight/insightface
 
 #### 2. 文字识别
 
-DeepOCR：https://github.com/JinpengLI/deep_ocr
+DeepOCR: https://github.com/JinpengLI/deep_ocr
 
 ### 跟踪
 
@@ -60,47 +57,46 @@ DeepOCR：https://github.com/JinpengLI/deep_ocr
 
 ### 分割
 
-#### 1. Unet
+Unet: https://github.com/zhixuhao/unet
 
-#### 2. mask-rcnn
-
+mask-rcnn: https://github.com/matterport/Mask_RCNN
 
 ### 边缘检测
 
-#### 1. HED (https://github.com/s9xie/hed)
+HED: https://github.com/s9xie/hed
 
-#### 2. RCF (https://github.com/yun-liu/rcf)
+RCF: https://github.com/yun-liu/rcf
 
 
 ### 图像复原
 
 #### 1. 去雨
 
-DDN : (https://github.com/XMU-smartdsp/Removing_Rain)
+DDN: https://github.com/XMU-smartdsp/Removing_Rain
 
-CGAN : (https://github.com/hezhangsprinter/ID-CGAN)
+CGAN: https://github.com/hezhangsprinter/ID-CGAN
 
-DID-MDN : (https://github.com/hezhangsprinter/DID-MDN)
+DID-MDN: https://github.com/hezhangsprinter/DID-MDN
 
-DeRaindrop : (https://github.com/rui1996/DeRaindrop)
+DeRaindrop: https://github.com/rui1996/DeRaindrop
 
 #### 2. 去雾
 
-MSCNN : (https://github.com/dishank-b/MSCNN-Dehazing-Tensorflow)
+MSCNN: https://github.com/dishank-b/MSCNN-Dehazing-Tensorflow
 
-DehazeNet 
+DehazeNet: https://github.com/caibolun/DehazeNet
 
 #### 3. 超分辨率
 
-1) SRCNN : https://github.com/tegg89/SRCNN-Tensorflow
+SRCNN: https://github.com/tegg89/SRCNN-Tensorflow
 
-2) EDSR : (https://github.com/thstkdgus35/EDSR-PyTorch)
+EDSR: https://github.com/thstkdgus35/EDSR-PyTorch  (https://blog.csdn.net/xjp_xujiping/article/details/81986020)
 
-https://blog.csdn.net/xjp_xujiping/article/details/81986020
+#### 4.图像单反化
 
+DPED: https://github.com/aiff22/DPED
 
-### 5.总结
-
+###  总结
 
 
 ### 参考资料
