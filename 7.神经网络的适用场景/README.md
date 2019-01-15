@@ -48,6 +48,10 @@ Insightface: https://github.com/deepinsight/insightface
 
 DeepOCR: https://github.com/JinpengLI/deep_ocr
 
+CTPN: https://github.com/tianzhi0549/CTPN (文字定位)
+
+DenseNet + CTC: https://github.com/YCG09/chinese_ocr
+
 ### 跟踪
 
 #### 1. 
