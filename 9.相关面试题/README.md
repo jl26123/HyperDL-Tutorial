@@ -45,7 +45,11 @@
    
 ##### 7.为什么很多做人脸的Paper会最后加入一个Local Connected Conv?
 
-##### 8.
+##### 8.不同的权值初始化方式以及其造成的后果?为什么会造成这样的结果?
+
+##### 9.Convolution、 pooling、 Normalization是卷积神经网络中十分重要的三个步骤，分别简述Convolution、 pooling和Normalization在卷积神经网络中的作用。
+
+
     
     
 #### 参考文献
