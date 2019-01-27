@@ -57,6 +57,9 @@
 
 ##### 13.正则化方法以及特点
 
+正则化方法包括： L1 regularization 、 L2 regularization 、 数据集扩增 、 dropout 等，其特点分别喂为：
+
+    1.
 
 
 #### 实践部分
