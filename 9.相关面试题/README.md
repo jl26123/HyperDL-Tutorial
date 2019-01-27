@@ -67,10 +67,10 @@
 | ----------------- | ----------- | ------------------- | ---------- |
 | Sigmoid           | σ(x)=1/(1+e−x)       | 1、会有梯度弥散<br>2、不是关于原点对称<br>3、计算exp比较耗时   |   -   |
 | Tanh              | tanh(x)=2σ(2x)−1     | 梯度弥散没解决                 |    1、解决了原点对称问题<br>2、比sigmoid更快   |
-| ReLU              | f(x)=max(0,x)        | Python              |    33332   |
-| Leaky ReLU        | f(x)=1(x<0)(αx)+1(x>=0)(x)      | Python/C++/Go...    |    109115  |
-| pRelu             | DMLC                 | Python/C++/R...     |    15162   |
-| Maxout            | max(wT1x+b1,wT2x+b2) | Python              |    18517   |
+| ReLU              | f(x)=max(0,x)        | 梯度弥散没完全解决              |    1、解决了部分梯度弥散问题<br>2、收敛速度更快   |
+| Leaky ReLU        | f(x)=αx(x<=0)<br>f(x)=x(x<0)      | -    |    解决了神经死亡问题  |
+| pRelu             | f(x)=αx(x<=0)<br>f(x)=x(x<0)                 |      |        |
+| Maxout            | max(wT1x+b1,wT2x+b2) | 参数比较多,本质上是在输出结果上又增加了一层    |   克服了ReLU的缺点，比较提倡使用   |
 
 
 #### 实践部分
@@ -95,5 +95,6 @@
 #### 参考文献
 
 [1] https://blog.csdn.net/u014722627/article/details/77938703
+
 [2] https://www.cnblogs.com/houjun/p/8535471.html
 
