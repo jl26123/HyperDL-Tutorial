@@ -52,6 +52,8 @@ CTPN: https://github.com/tianzhi0549/CTPN (文字定位)
 
 DenseNet + CTC: https://github.com/YCG09/chinese_ocr
 
+YOLOv3 + CRNN : https://github.com/chineseocr/chineseocr 
+
 ### 跟踪
 
 #### 1. 
@@ -102,6 +104,7 @@ DPED: https://github.com/aiff22/DPED
 
 ###  总结
 
+目前深度学习技术在计算机视觉算法、图像处理算法运用越来越广泛，这里把我们在工程中常用的一些网络加以整理总结，方便后面的使用者学习。在很多细分领域，深度学习同样发挥了巨大作用，例如医学领域，自然语言处理等，由于这些领域专业性更强，通常是多学科的结合，我们应用不多，没办法为大家提供详细的研究材料，大家见谅。
 
 ### 参考资料
 
